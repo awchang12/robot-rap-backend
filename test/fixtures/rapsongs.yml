@@ -1,9 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  username: MyString
-  audio_source: MyString
-
-two:
-  username: MyString
-  audio_source: MyString
