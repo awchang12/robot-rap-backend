@@ -1,3 +1,3 @@
 class RapsongSerializer < ActiveModel::Serializer
-  attributes :id, :username, :audio_source, :name
+  attributes :id, :username, :name, :drums, :lyrics, :voice, :url
 end

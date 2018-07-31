@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Rapsong.create(name: "background", username: "djanthony", audio_source: "app/audio_files/audio.wav")
+Rapsong.destroy_all
+#Rapsong.create(name: "background", username: "djanthony", audio_source: "app/audio_files/audio.wav")

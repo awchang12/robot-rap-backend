@@ -11,6 +11,6 @@ class RapsongsController < ApplicationController
     private
 
     def rapsong_params
-        params.require(:rapsong).permit(:username, :name, :audio_source, :audio)
+        params.require(:rapsong).permit(:username, :name, :drums, :lyrics, :voice, :url)
     end
 end
