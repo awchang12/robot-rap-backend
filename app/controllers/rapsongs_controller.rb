@@ -6,6 +6,12 @@ class RapsongsController < ApplicationController
 
     def create
         render json: Rapsong.create(rapsong_params)
+
+    #     if @rapsong.save
+    #         render json: @rapsong, status: :accepted
+    #     else
+    #         render json: {errors: @rapsong.errors.full_messages }, status: :unprocessible_entity
+    #     end
     end
 
     private
