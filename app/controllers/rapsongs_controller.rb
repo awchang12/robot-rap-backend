@@ -5,7 +5,7 @@ class RapsongsController < ApplicationController
     end
 
     def create
-
+        render json: Rapsong.create(rapsong_params)
     end
 
     private
