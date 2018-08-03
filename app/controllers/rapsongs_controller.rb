@@ -8,6 +8,10 @@ class RapsongsController < ApplicationController
         render json: Rapsong.create(rapsong_params)
     end
 
+    def destroy
+        render json: Rapsong.destroy(params[:id])
+    end
+    
     private
 
     def rapsong_params
